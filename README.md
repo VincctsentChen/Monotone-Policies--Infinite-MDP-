@@ -22,7 +22,7 @@ The six treatments are defined in `test_infinite_horizon_with_data.py`:
 - **T4: `CCB`** — Calcium Channel Blockers  
 - **T5: `TH`** — Thiazide Diuretics  
 
-> Source snippet (context only):
+> Source snippet:
 > ```python
 > alldrugs = ["ACE", "ARB", "BB", "CCB", "TH"]  # base list
 > drugs.insert(0, "NT")                         # add no-treatment option
@@ -33,9 +33,4 @@ The six treatments are defined in `test_infinite_horizon_with_data.py`:
 
 ## Getting Started
 
-The main entry point is **`test_infinite_horizon_with_data.py`**.
-
-1) **Clone** the repo and enter the project directory:
-```bash
-git clone <YOUR_REPO_URL>.git
-cd <YOUR_REPO_NAME>
+The main entry point is **`test_infinite_horizon_with_data.py`**. The output includes a build-status indicator. If it reports SUCCESS, the transition probabilities, rewards, and returns are available.
