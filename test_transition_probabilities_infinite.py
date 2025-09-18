@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
--Test script for transition_probabilities_infinite.py using real data of patient_id = 0
+-Test script for transition_probabilities_infinite.py using real data of patient_id = 0 $
 -This script tests the TP_infinite function and displays the structure of ptrans and feasible outputs
 -The output transition matrix has shape (10,10,6), because we have 6 actions defined in the test_infinite_horizon_with_data.py:
     alldrugs = ["ACE", "ARB", "BB", "CCB", "TH"]  # No treatment, then 5 drug types
